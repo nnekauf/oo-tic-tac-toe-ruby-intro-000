@@ -114,6 +114,19 @@ def over?
   end
 end
 
+def winner
+  index= [ ]
+  index = won?
+  if !won?
+    return nil
+    elsif @board[index[0]] == "X"
+      return "X"
+    elsif @board[index[0]] == "O"
+      return "O"
+    
+  end
+end
+
 
 
 end

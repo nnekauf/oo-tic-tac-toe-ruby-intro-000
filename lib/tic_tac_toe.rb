@@ -89,6 +89,24 @@ def won?
       return false
 end
 
+def full?
+  if @board.include? (" ")
+    return false 
+  else
+    return true
+  end
+end   
+
+def draw?
+  if !won? && full?
+    return true 
+  elsif won?&& full?== false
+    return false
+  elsif won?(board) == true
+  end 
+end 
+
+
 
 
 

@@ -100,7 +100,7 @@ end
 def draw?
   if !won? && full?
     return true 
-  elsif won?&& full?== false
+  elsif won? && full? == false
     return false
   elsif won? == true
   end 

@@ -33,4 +33,6 @@ end
 def position_taken?(location)
   @board[location] != " " && @board[location] != ""
 end
+
+
 end
